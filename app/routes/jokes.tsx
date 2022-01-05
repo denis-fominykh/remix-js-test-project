@@ -1,7 +1,7 @@
 import { Link, Outlet, useLoaderData } from 'remix';
 import type { LinksFunction, LoaderFunction } from 'remix';
 
-import { db } from 'app/utils/db.server';
+import { db } from '~/utils/db.server';
 
 import stylesUrl from 'app/styles/jokes.css';
 
